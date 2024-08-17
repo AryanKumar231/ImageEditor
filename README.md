@@ -60,5 +60,5 @@ To use the Image Editor, follow these steps:
 
 If you have any questions or feedback, feel free to reach out:
 
-- Email: your-email@example.com
+- Email: aryankashyap03873@gmail.com
 - GitHub: [AryanKumar231](https://github.com/aryankumar231)
