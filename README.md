@@ -57,7 +57,10 @@ To use the Image Editor, follow these steps:
    - Click the "Reset" button to remove all applied filters and rotation, returning the image to its original state.
 
 
-## **Live Demo** : click here to see the [live demo](https://aryankumar231.github.io/ImageEditor/).
+
+**Live Demo** : click here to see the [live demo](https://aryankumar231.github.io/ImageEditor/).
+
+
 
 ## Contact
 
