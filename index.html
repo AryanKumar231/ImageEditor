@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageEditor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>EditorImage</h1>
+    </div>
+    <div class="editor">
+        <div class="row">
+            <div class="image-box">
+                <label for="select-image">Click here and select the image</label>
+                <input type="file" id="select-image">
+                <img id="image" alt="image loading...">
+            </div>
+            <div class="controls">
+                <div class="slidecontainer">
+                    <span>Grayscale</span>
+                    <input type="range" min="1" max="100" value="0" class="slider" id="grayscale">
+                </div>
+                <div class="slidecontainer">
+                    <span>Blur</span>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="blur">
+                </div>
+                <div class="slidecontainer">
+                    <span>Contrast</span>
+                    <input type="range" min="1" max="200" value="100" class="slider" id="contrast">
+                </div>
+                <div class="slidecontainer">
+                    <span>Hue</span>
+                    <input type="range" min="1" max="360" value="180" class="slider" id="hue">
+                </div>
+                <div class="slidecontainer">
+                    <span>Saturation</span>
+                    <input type="range" min="1" max="200" value="100" class="slider" id="saturation">
+                </div>
+                <div class="slidecontainer">
+                    <span>Opacity</span>
+                    <input type="range" min="1" max="100" value="100" class="slider" id="opacity">
+                </div>
+            </div>
+        </div>
+        <div class="controls-2">
+            <button id="reset">Reset</button>
+            <button id="download">Download</button>
+            <button id="rotate-90">Rotate 90&deg;</button>
+            <button id="rotate-180">Rotate 180&deg;</button>
+            <button id="rotate-270">Rotate 270&deg;</button>
+            <button id="rotate-360">Rotate 360&deg;</button>
+        </div>
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>
